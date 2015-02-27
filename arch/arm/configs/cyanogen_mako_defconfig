@@ -3417,14 +3417,15 @@ CONFIG_NLATTR=y
 # CONFIG_CORDIC is not set
 
 
-#kernel flags for mako on hybris-11.0. now in the right defconfig for mako :-)
+#kernel flags for mako on hybris-11.0. result of diagnostic.Ãlog
 CONFIG_ANDROID_LOW_MEMORY_KILLER=n
 CONFIG_ANDROID_PARANOID_NETWORK=n
 CONFIG_DEVTMPFS=y
 CONFIG_FHANDLE=y
 CONFIG_FHANDLE=y
 CONFIG_DUMMY=n
-
-#needed through diagnostic.log
 CONFIG_IKCONFIG=y
 CONFIG_IKCONFIG_PROC=y
+CONFIG_AUTOFS4_FS=y
+CONFIG_DEVTMPFS_MOUNT=y
+CONFIG_TMPFS_POSIX_ACL=y
